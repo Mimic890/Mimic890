@@ -14,15 +14,15 @@
 
 <div align="center">
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mimic890&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&sideLabels=c9d1d9&currStreakLabel=58a6ff" width="80%"/>
+
+<br/>
+
 <img src="https://github-readme-stats.vercel.app/api?username=Mimic890&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="80%"/>
 
 <br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mimic890&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="50%"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mimic890&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&sideLabels=c9d1d9&currStreakLabel=58a6ff" width="80%"/>
 
 </div>
 
