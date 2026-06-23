@@ -66,11 +66,3 @@
 </table>
 
 </div>
-
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Mimic890&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS" width="300"/>
-
-</div>
