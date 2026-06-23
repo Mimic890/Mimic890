@@ -45,6 +45,19 @@
 
 ---
 
+### 🔥 Repos by Commit Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=HyprArch&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=HyperChat&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=hyperguard&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=hyprbot&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" width="49%"/>
+
+</div>
+
+---
+
 <div align="center">
 
 ![Visitors](https://visitcount.itsvg.in/api?id=Mimic890&icon=0&color=0)
