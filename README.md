@@ -18,11 +18,11 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mimic890&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="80%"/>
+<img src="https://stats.hyperchat.ru/api?username=Mimic890&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="80%"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mimic890&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="50%"/>
+<img src="https://stats.hyperchat.ru/api/top-langs/?username=Mimic890&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="50%"/>
 
 </div>
 
@@ -42,24 +42,24 @@
 <tr>
 <td align="center" width="50%">
 <a href="https://github.com/Mimic890/HyprArch">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=HyprArch&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
+<img src="https://stats.hyperchat.ru/api/pin/?username=Mimic890&repo=HyprArch&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
 </a>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/Mimic890/HyperChat">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=HyperChat&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
+<img src="https://stats.hyperchat.ru/api/pin/?username=Mimic890&repo=HyperChat&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
 </a>
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 <a href="https://github.com/Mimic890/oge-request">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=oge-request&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
+<img src="https://stats.hyperchat.ru/api/pin/?username=Mimic890&repo=oge-request&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
 </a>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/Mimic890/hyprbot">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Mimic890&repo=hyprbot&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
+<img src="https://stats.hyperchat.ru/api/pin/?username=Mimic890&repo=hyprbot&theme=radical&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&show_description=false" width="100%"/>
 </a>
 </td>
 </tr>
