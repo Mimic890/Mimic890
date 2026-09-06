@@ -23,13 +23,3 @@
 <img src="https://stats.hyperchat.ru/api/top-langs/?nocache=777&username=Mimic890&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="50%"/>
 
 </div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mimic890&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true" width="95%"/>
-
-</div>
-
-</div>
