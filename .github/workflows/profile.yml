@@ -1,0 +1,76 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # каждые 6 часов
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/profile.yml]
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    env:
+      THEME: hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff
+    steps:
+      - uses: actions/checkout@v6
+
+      # STATS_TOKEN (PAT с read:user + repo) нужен только для приватных репо.
+      # Без него карточки строятся по публичным данным через GITHUB_TOKEN.
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&${{ env.THEME }}
+          path: profile/stats.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&${{ env.THEME }}
+          path: profile/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?palette=github-dark&color_snake=#58a6ff&color_dots=#161b22,#0c2d6b,#1f6feb,#388bfd,#79c0ff
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "chore: update profile cards" || exit 0
+          git push
+
+  # Изометрический календарь коммитов + текущий стрик.
+  # Требует секрет METRICS_TOKEN (classic PAT, scope'ы не обязательны); без него шаг пропускается.
+  calendar:
+    needs: cards
+    runs-on: ubuntu-latest
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      - name: Isometric calendar
+        if: env.METRICS_TOKEN != ''
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: profile/calendar.svg
+          base: ""
+          config_timezone: Europe/Moscow
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
