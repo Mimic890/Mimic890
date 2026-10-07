@@ -26,10 +26,6 @@
 
 <img src="./profile/top-langs.svg" width="50%"/>
 
-<br/>
-
-<img src="./profile/calendar.svg" width="80%"/>
-
 </div>
 
 ---

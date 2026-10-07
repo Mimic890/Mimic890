@@ -56,22 +56,3 @@ jobs:
           git commit -m "chore: update profile cards" || exit 0
           git pull --rebase origin main
           git push
-
-  # Изометрический календарь коммитов + текущий стрик.
-  # Требует секрет METRICS_TOKEN (classic PAT, scope'ы не обязательны); без него шаг пропускается.
-  calendar:
-    needs: cards
-    runs-on: ubuntu-latest
-    env:
-      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-    steps:
-      - name: Isometric calendar
-        if: env.METRICS_TOKEN != ''
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: profile/calendar.svg
-          base: ""
-          config_timezone: Europe/Moscow
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
